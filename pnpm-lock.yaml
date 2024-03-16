@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@flydotio/dockerfile':
     specifier: ^0.5.2
-    version: 0.5.2
+    version: 0.5.3
   '@libsql/client':
     specifier: ^0.5.3
     version: 0.5.5
@@ -325,8 +325,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@flydotio/dockerfile@0.5.2:
-    resolution: {integrity: sha512-2IQ32c6Eeag1gUD35wNLfdJw7CK1HanwESQKBkHdVjsT1eakMFgP/9QJ7a88QkfPBmzQFU2yNci/bxQZBpAucw==}
+  /@flydotio/dockerfile@0.5.3:
+    resolution: {integrity: sha512-HvPMYkvgAJm9564M8QB8rxy8kuXV4JbUjvfvaUbO3Ogw4SDWLUphEDGThf2IPB+lI4NN4w7zOHzV+GM0mBZw9g==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
