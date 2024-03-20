@@ -39,8 +39,8 @@ devDependencies:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.57.0)
   eslint-plugin-svelte:
-    specifier: 2.36.0-next.10
-    version: 2.36.0-next.10(eslint@8.57.0)(svelte@5.0.0-next.74)
+    specifier: 2.36.0-next.12
+    version: 2.36.0-next.12(eslint@8.57.0)(svelte@5.0.0-next.74)
   prettier:
     specifier: ^3.2.5
     version: 3.2.5
@@ -1496,8 +1496,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-compat-utils@0.4.1(eslint@8.57.0):
-    resolution: {integrity: sha512-5N7ZaJG5pZxUeNNJfUchurLVrunD1xJvyg5kYOIVF8kg1f3ajTikmAu/5fZ9w100omNPOoMjngRszh/Q/uFGMg==}
+  /eslint-compat-utils@0.5.0(eslint@8.57.0):
+    resolution: {integrity: sha512-dc6Y8tzEcSYZMHa+CMPLi/hyo1FzNeonbhJL7Ol0ccuKQkwopJcJBA9YL/xmMTLU1eKigXo9vj9nALElWYSowg==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: '>=6.0.0'
@@ -1515,12 +1515,12 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-plugin-svelte@2.36.0-next.10(eslint@8.57.0)(svelte@5.0.0-next.74):
-    resolution: {integrity: sha512-Dj4sxIJjcbTCqw/ATPmLOie9TmYHhjm6T86GL2KWzXGv79wxKkhSeirWB5wTqEf+RS+56Gvi9xWUljrdHu4V+g==}
+  /eslint-plugin-svelte@2.36.0-next.12(eslint@8.57.0)(svelte@5.0.0-next.74):
+    resolution: {integrity: sha512-aRWZF+vLmRjbka4bCI/HqlHCMXdqdTZk2Lwvbdwv43ZQ4XtB7fqjnGrrSXAEMCzi6hXnGKRN4yjtJhLUgXZyww==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
-      svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.68
+      svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.73
     peerDependenciesMeta:
       svelte:
         optional: true
@@ -1529,9 +1529,9 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
       debug: 4.3.4
       eslint: 8.57.0
-      eslint-compat-utils: 0.4.1(eslint@8.57.0)
+      eslint-compat-utils: 0.5.0(eslint@8.57.0)
       esutils: 2.0.3
-      known-css-properties: 0.29.0
+      known-css-properties: 0.30.0
       postcss: 8.4.35
       postcss-load-config: 3.1.4(postcss@8.4.35)
       postcss-safe-parser: 6.0.0(postcss@8.4.35)
@@ -2051,8 +2051,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /known-css-properties@0.29.0:
-    resolution: {integrity: sha512-Ne7wqW7/9Cz54PDt4I3tcV+hAyat8ypyOGzYRJQfdxnnjeWsTxt1cy8pjvvKeI5kfXuyvULyeeAvwvvtAX3ayQ==}
+  /known-css-properties@0.30.0:
+    resolution: {integrity: sha512-VSWXYUnsPu9+WYKkfmJyLKtIvaRJi1kXUqVmBACORXZQxT5oZDsoZ2vQP+bQFDnWtpI/4eq3MLoRMjI2fnLzTQ==}
     dev: true
 
   /levn@0.4.1:
