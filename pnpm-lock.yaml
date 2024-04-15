@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@flydotio/dockerfile':
     specifier: ^0.5.2
-    version: 0.5.4
+    version: 0.5.5
   '@libsql/client':
     specifier: ^0.5.3
     version: 0.5.6
@@ -325,14 +325,14 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@flydotio/dockerfile@0.5.4:
-    resolution: {integrity: sha512-pglzQeVXVjCk/UCoY+g/jtr4i0zN+1BRTR35rFB4mNWZx/4cxBVa70zH1+N80TvOQ9y3ydB1M8258flr0bM/CQ==}
+  /@flydotio/dockerfile@0.5.5:
+    resolution: {integrity: sha512-nIabdrDHHZbLD7GkPkEyByE2/qQlXcLhBuq9YGy300uNdGyZhpHrUaMRaarrGauOhNq0kEMEXuSK+smZt8bBYw==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
       chalk: 5.3.0
       diff: 5.2.0
-      ejs: 3.1.9
+      ejs: 3.1.10
       shell-quote: 1.8.1
       yargs: 17.7.2
     dev: true
@@ -1455,8 +1455,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /ejs@3.1.9:
-    resolution: {integrity: sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==}
+  /ejs@3.1.10:
+    resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dependencies:
