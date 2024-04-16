@@ -17,7 +17,7 @@
 	},
 	"devDependencies": {
 		"@flydotio/dockerfile": "^0.5.2",
-		"@libsql/client": "^0.5.3",
+		"@libsql/client": "^0.6.0",
 		"@playwright/test": "^1.42.1",
 		"@sveltejs/adapter-node": "^5.0.1",
 		"@sveltejs/kit": "^2.5.3",
