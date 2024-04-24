@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@flydotio/dockerfile':
         specifier: ^0.5.2
-        version: 0.5.5
+        version: 0.5.6
       '@libsql/client':
         specifier: ^0.6.0
         version: 0.6.0
@@ -235,8 +235,8 @@ packages:
     resolution: {integrity: sha512-5WoDz3Y19Bg2BnErkZTp0en+c/i9PvgFS7MBe1+m60HjFr0hrphlAGp4yzI7pxpt4xShln4ZyYp4neJm8hmOkQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@flydotio/dockerfile@0.5.5':
-    resolution: {integrity: sha512-nIabdrDHHZbLD7GkPkEyByE2/qQlXcLhBuq9YGy300uNdGyZhpHrUaMRaarrGauOhNq0kEMEXuSK+smZt8bBYw==}
+  '@flydotio/dockerfile@0.5.6':
+    resolution: {integrity: sha512-zqoXp1cFh0A+LQLKpGz4kSA0CctPL/Ze4mALrCQkQaU89zIWYy6dePzlVN+ujOcXTKyR+ZU+fzLjdWV6Uwje1A==}
     engines: {node: '>=16.0.0'}
     hasBin: true
 
@@ -1915,7 +1915,7 @@ snapshots:
 
   '@eslint/js@9.1.1': {}
 
-  '@flydotio/dockerfile@0.5.5':
+  '@flydotio/dockerfile@0.5.6':
     dependencies:
       chalk: 5.3.0
       diff: 5.2.0
