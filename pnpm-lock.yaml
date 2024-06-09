@@ -39,8 +39,8 @@ devDependencies:
     specifier: ^9.1.0
     version: 9.1.0(eslint@9.4.0)
   eslint-plugin-svelte:
-    specifier: 2.39.0
-    version: 2.39.0(eslint@9.4.0)(svelte@5.0.0-next.151)
+    specifier: 2.39.2
+    version: 2.39.2(eslint@9.4.0)(svelte@5.0.0-next.151)
   prettier:
     specifier: ^3.3.1
     version: 3.3.1
@@ -1390,7 +1390,7 @@ packages:
       eslint: '>=6.0.0'
     dependencies:
       eslint: 9.4.0
-      semver: 7.6.0
+      semver: 7.6.2
     dev: true
 
   /eslint-config-prettier@9.1.0(eslint@9.4.0):
@@ -1402,8 +1402,8 @@ packages:
       eslint: 9.4.0
     dev: true
 
-  /eslint-plugin-svelte@2.39.0(eslint@9.4.0)(svelte@5.0.0-next.151):
-    resolution: {integrity: sha512-FXktBLXsrxbA+6ZvJK2z/sQOrUKyzSg3fNWK5h0reSCjr2fjAsc9ai/s/JvSl4Hgvz3nYVtTIMwarZH5RcB7BA==}
+  /eslint-plugin-svelte@2.39.2(eslint@9.4.0)(svelte@5.0.0-next.151):
+    resolution: {integrity: sha512-liJMHhWnNqnimPpw0lSKiG/fQXla+ySp0NjXirB6l9A9LrBY2AjUfL0HMKkBEil5PaFn5F2rp6EqW85NDjRdSA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
@@ -1414,7 +1414,6 @@ packages:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.4.0)
       '@jridgewell/sourcemap-codec': 1.4.15
-      debug: 4.3.4
       eslint: 9.4.0
       eslint-compat-utils: 0.5.0(eslint@9.4.0)
       esutils: 2.0.3
@@ -1423,11 +1422,10 @@ packages:
       postcss-load-config: 3.1.4(postcss@8.4.38)
       postcss-safe-parser: 6.0.0(postcss@8.4.38)
       postcss-selector-parser: 6.0.16
-      semver: 7.6.0
+      semver: 7.6.2
       svelte: 5.0.0-next.151
       svelte-eslint-parser: 0.36.0(svelte@5.0.0-next.151)
     transitivePeerDependencies:
-      - supports-color
       - ts-node
     dev: true
 
@@ -2004,13 +2002,6 @@ packages:
       get-func-name: 2.0.2
     dev: true
 
-  /lru-cache@6.0.0:
-    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
-    engines: {node: '>=10'}
-    dependencies:
-      yallist: 4.0.0
-    dev: true
-
   /magic-string@0.30.10:
     resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
     dependencies:
@@ -2437,14 +2428,6 @@ packages:
       graceful-fs: 4.2.11
       mkdirp: 0.5.6
       rimraf: 2.7.1
-    dev: true
-
-  /semver@7.6.0:
-    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
     dev: true
 
   /semver@7.6.2:
@@ -2954,10 +2937,6 @@ packages:
   /y18n@5.0.8:
     resolution: {integrity: sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==}
     engines: {node: '>=10'}
-    dev: true
-
-  /yallist@4.0.0:
-    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
 
   /yaml@1.10.2:
